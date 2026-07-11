@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "obsidianarmor",
+  "version": "${version}",
+  "name": "Obsidian Armor",
+  "description": "Adds smeltable obsidian ingots and a full obsidian armor set that grants fire resistance but slows the wearer.",
+  "authors": ["ObsidianArmor"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.obsidianarmor.ObsidianArmorMod"],
+    "client": ["com.obsidianarmor.ObsidianArmorModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "1.20.1",
+    "fabric-api": "*"
+  }
+}
